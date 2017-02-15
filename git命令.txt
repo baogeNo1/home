@@ -1,0 +1,41 @@
+git init  创建仓库
+git add readme.txt添加到暂存区里面去
+git commit -m "提交信息"告诉Git，把文件提交到仓库。
+git status来查看下结果
+git log  查看日志
+git log –-pretty=oneline    日志显示一行
+git reset  –hard HEAD
+git reset  –hard HEAD^
+git reset  –hard HEAD^^   回退 
+
+git reset  –hard HEAD~100
+
+cat readme.txt  查看文件
+
+git reset  –hard 版本号   回退到指定版本
+
+git reflog  查看版本
+
+git add .
+
+一次性提交多个文件
+
+git checkout  --  readme.txt  撤销修改
+rm  b.txt  删除文件
+ssh -keygen -t rsa –C “youremail@example.com” 创建密钥
+
+git remote add origin https://github.com/tugenhua0707/testgit.git
+
+git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
+
+
+本地仓库  add   commit
+远程仓库  push  pull
+
+
+
+
+
+链接http://blog.jobbole.com/78960
+
+svnhttp://www.cnblogs.com/xiaobaihome/archive/2012/03/20/2408089.html
